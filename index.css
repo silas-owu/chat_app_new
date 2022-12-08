@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+    height: 800px;
+
+    /* background-color: antiquewhite; */
+}
+
+.background{
+    background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+    position:relative;
+    left: -90px;
+    height: 85%;
+    border-bottom-left-radius: 20rem;
+    border-bottom-right-radius: 20rem;
+    
+    
+    display: flex;
+    flex:0.3 ;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex; 
+}
+
+/* .bg-bottom-right{ */
+    background-color: #fafafa;
+    position: absolute;
+    height: 85%;
+    border-bottom-left-radius: 20rem;
+    border-bottom-right-radius: 20rem;
+
+    display: flex;
+    flex: 0.3
+/* } */
+
+.mid-msg{}
+
+
+/* 
+@media only screen and (min-width:375px ){
+    body{
+        display: flex;
+        flex: 1;
+        /* flex-direction: column; */
+/* 
+        height: 100%;
+    } */
+
+    /* .background{
+        background:linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+        flex: 0.5;
+        height: 60vh;
+        border-bottom-right-radius: 12rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    } */
+
+    /* .bg-bottom-left{ */
+        /* background: blue;
+        flex: 0.5; */
+        /* height: 60vh;
+        border-top-left-radius: 12rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end; */
+    /* }
+/* } */ 
