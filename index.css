@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: "Rubik";
+    src: url(./fonts/Rubik-Light.ttf);
+}
+
+@font-face {
+    font-family: "Rubik-medium";
+    src: url(./fonts/Rubik-Medium.ttf);
+}
 
 *{
     margin: 0;
@@ -7,45 +15,101 @@
 }
 
 body{
-    position: relative;
-
+    /* position: relative; */
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex: 1;
     width: 100%;
     height: 800px;
-
-    /* background-color: antiquewhite; */
-}
+    overflow-x: hidden;
+    }
 
 .background{
     background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
-    position:relative;
-    left: -90px;
+    
     height: 85%;
     border-bottom-left-radius: 20rem;
     border-bottom-right-radius: 20rem;
     
     
     display: flex;
-    flex:0.3 ;
+    flex:0.25;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex; 
+    align-items: flex;
+    margin-left: -7rem; 
 }
 
-/* .bg-bottom-right{ */
-    background-color: #fafafa;
-    position: absolute;
+.bg-bottom-right{
+
+    background: #F7F6FA ;
+    
     height: 85%;
-    border-bottom-left-radius: 20rem;
-    border-bottom-right-radius: 20rem;
+    border-top-left-radius: 20rem;
+    border-top-right-radius: 20rem;
+
+    margin-top: 6rem;
+    margin-right: -8rem;
 
     display: flex;
-    flex: 0.3
-/* } */
+    flex: 0.25;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
 
-.mid-msg{}
+
+.mid{
+    display: flex;
+    flex:0.5;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    
+    margin-top: 5rem;
+    margin-left: -11rem;
+
+}
+
+/* .phone-mockup{
+    display: flex;
+    flex-direction: row;
+    flex:0.22;
+    justify-content: flex-start;
+
+} */
+
+.mid-msg{
+    margin-top: 17rem;
+    
+
+    display: flex;
+    flex:1;
+    flex-direction:column;
+    z-index: 2;
+
+}
+
+.mid-msg > h1{
+    color: #3E2753;
+
+    font-family: 'Rubik-medium';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.mid-msg > p{
+    color: #a39dA9; 
+
+    margin-top: 1.5rem;
+
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+
+}
 
 
 /* 
