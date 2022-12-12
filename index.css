@@ -112,35 +112,44 @@ body{
 }
 
 
-/* 
-@media only screen and (min-width:375px ){
-    body{
-        display: flex;
-        flex: 1;
-        /* flex-direction: column; */
-/* 
-        height: 100%;
-    } */
-
-    /* .background{
-        background:linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
-        flex: 0.5;
-        height: 60vh;
-        border-bottom-right-radius: 12rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-    } */
-
-    /* .bg-bottom-left{ */
-        /* background: blue;
-        flex: 0.5; */
-        /* height: 60vh;
-        border-top-left-radius: 12rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: flex-end; */
-    /* }
-/* } */ 
+@media only screen and (max-width: 376px) {
+    body {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      width: 100%;
+      height: 987px;
+      margin: 0;
+    }
+  
+    .background {
+      background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+      margin-right: 175px;
+      margin-bottom: -11px;
+    }
+    .mid {
+      display: flex;
+      flex: 0.5;
+      flex-direction: column;
+      margin-top: -885px;
+      margin-left: 50px;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    div > img {
+      margin-top: initial;
+      width: 247px;
+      height: 505px;
+    }
+    .mid-msg {
+      /* display: none; */
+      margin-top: revert;
+      width: 311px;
+      height: 239px;
+    }
+  
+    .bg-bottom-right {
+      display: none;
+    }
+}
